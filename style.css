@@ -111,7 +111,7 @@ ul a{
 .footer {
   background-color: #000000;
   color: #ffffff;
-  padding: 45px 20px;
+  padding: 50px 20px;
 }
 
 .footer-container {
@@ -121,24 +121,23 @@ ul a{
   justify-content: space-between;
   align-items: center;
 }
-
 .footer-left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .footer-logo {
   color: #ffffff;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: -0.5px;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .footer-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 24px;
   margin: 0;
   padding: 0;
@@ -147,12 +146,12 @@ ul a{
 .footer-links a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   position: relative;
   padding-bottom: 6px;
+  transition: opacity 0.2s ease;
 }
-
-.footer-links a:hover::after {
+.footer-links::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -161,28 +160,29 @@ ul a{
   height: 2px;
   background-color: #ffffff;
 }
-
 .footer-right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 20px;
+  gap: 22px;
 }
 
 .social-icons {
   display: flex;
-  gap: 16px;
+  align-items: center;
+  gap: 14px;
 }
 
 .social-icons a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 6px;
   position: relative;
+  transition: opacity 0.2s ease;
 }
 
-.social-icons a:hover::after {
+.social-icons::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -197,3 +197,4 @@ ul a{
   font-size: 14px;
   margin: 0;
 }
+
